@@ -1,0 +1,6 @@
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\bin\Debug\ACM.DL.dll
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\bin\Debug\ACM.DL.pdb
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\obj\Debug\ACM.DL.csproj.AssemblyReference.cache
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\obj\Debug\ACM.DL.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\obj\Debug\ACM.DL.dll
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.DL\obj\Debug\ACM.DL.pdb
