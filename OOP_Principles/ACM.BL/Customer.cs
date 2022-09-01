@@ -43,6 +43,7 @@ namespace ACM.BL
 
         public bool validate()
         {
+            //validates customer data
             var isValid = true;
             if (string.IsNullOrWhiteSpace(LastName)) isValid = false;
             if (string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
@@ -51,16 +52,19 @@ namespace ACM.BL
 
         public List<Customer> Retrieve()
         {
+            //retrieve all customers
             return new List<Customer>();
         }
 
         public Customer Retrieve(int customerId)
         {
+            //retrieve defined customer
             return new Customer();
         }
 
         public bool Save()
         {
+            //saves a customer
             return true;
         }
     }
