@@ -23,21 +23,6 @@ namespace ACM.BL
         //tracks date, time and timezone offset
         public DateTimeOffset? OrderDate { get; set; }
 
-        public Order Retrieve(int orderId)
-        {
-            //retrieve defined order
-            return new Order();
-        }
-        public List<Order> Retrieve()
-        {
-            //retrieve defined order
-            return new List<Order>();
-        }
-        public bool Save()
-        {
-            //saves an order
-            return true;
-        }
         public bool validate()
         {
             //validates order

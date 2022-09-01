@@ -59,23 +59,6 @@ namespace ACM.BL
             if (string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
             return isValid;
         }
-
-        public List<Customer> Retrieve()
-        {
-            //retrieve all customers
-            return new List<Customer>();
-        }
-
-        public Customer Retrieve(int customerId)
-        {
-            //retrieve defined customer
-            return new Customer();
-        }
-
-        public bool Save()
-        {
-            //saves a customer
-            return true;
-        }
+        
     }
 }
