@@ -16,7 +16,7 @@ namespace ACM.BL
             AddressList = new List<Address>();
         }
 
-        public Customer()
+        public Customer():this(0)
         {
             //since we have added the constructor above, best we set this one for other properties
         }
