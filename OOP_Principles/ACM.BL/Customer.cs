@@ -12,12 +12,16 @@ namespace ACM.BL
         {
             //since customerId has a private setter, we need to create it through the constructor
             CustomerId = customerId;
+            //we initialize the address list property because it is not like other types, it will not be assigned a default value
+            AddressList = new List<Address>();
         }
 
         public Customer()
         {
             //since we have added the constructor above, best we set this one for other properties
         }
+        //1:n relationship, one customer can have several addresses
+        public List<Address> AddressList { get; set; }
         public string EmailAddress { get; set; }
         public int CustomerId { get; private set; }
         public string FirstName { get; set; }
