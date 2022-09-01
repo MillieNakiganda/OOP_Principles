@@ -54,7 +54,7 @@ namespace ACM.BL
             }
 
         }
-
+        public int CustomerType { get; set; }
         public bool validate()
         {
             //validates customer data
