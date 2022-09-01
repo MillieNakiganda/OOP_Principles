@@ -8,6 +8,16 @@ namespace ACM.BL
 {
     public class Customer
     {
+        public Customer(int customerId)
+        {
+            //since customerId has a private setter, we need to create it through the constructor
+            CustomerId = customerId;
+        }
+
+        public Customer()
+        {
+            //since we have added the constructor above, best we set this one for other properties
+        }
         public string EmailAddress { get; set; }
         public int CustomerId { get; private set; }
         public string FirstName { get; set; }
