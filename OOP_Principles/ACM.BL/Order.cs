@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ACM.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Order
+    public class Order : EntityBase,ILoggable
     {
         public Order(int orderId)
         {
@@ -26,13 +27,18 @@ namespace ACM.BL
         //tracks date, time and timezone offset
         public DateTimeOffset? OrderDate { get; set; }
         public List<OrderItem> orderItems { get; set; }
-        public bool validate()
+        public override bool validate()
         {
             //validates order
             var isValid = true;
             if (OrderDate == null) isValid = false;
 
             return isValid;
+        }
+
+        public string Log()
+        {
+            return $"{OrderId} Dtae: {OrderDate.Value.Date}  Status: {EntitySate.ToString()}";
         }
     }
 }

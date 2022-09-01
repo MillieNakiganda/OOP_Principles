@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase,ILoggable
     {
         public Product(int productId)
         {
@@ -42,6 +42,11 @@ namespace ACM.BL
             if (string.IsNullOrWhiteSpace(ProductName)) isValid = false;
             if (CurrentPrice == null) isValid = false;
             return isValid;
+        }
+
+        public string Log()
+        {
+            return $"{ProductId} {ProductName} Details: {ProductDescription} Status: {EntitySate.ToString()}";
         }
     }
 }
