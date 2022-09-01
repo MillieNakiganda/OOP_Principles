@@ -16,7 +16,7 @@ namespace ACM.BLTest
             {
                 CurrentPrice = 15.96M,
                 ProductDescription = "Assorted size set of 4 bright yellow mini sunflowers",
-                ProductName = "Sunflowers"
+                ProductName = "Sunflowers",
 
             };
             // -- Act
@@ -25,6 +25,42 @@ namespace ACM.BLTest
             Assert.AreEqual(actual.CurrentPrice, expected.CurrentPrice);
             Assert.AreEqual(actual.ProductName, expected.ProductName);
             Assert.AreEqual(actual.ProductDescription, expected.ProductDescription);
+        }
+        [TestMethod]
+        public void SaveTestValid()
+        {
+            //--Arrange
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = 18M,
+                ProductDescription = "Assorted size set of 4 bright yellow mini sunflowers",
+                ProductName = "Sunflowers",
+                HasChanges = true
+
+            };
+            // -- Act
+            var actual = productRepository.Save(updatedProduct);
+            // --Assert
+            Assert.AreEqual(actual, true);
+        }
+        [TestMethod]
+        public void SaveTestMissingPrice()
+        {
+            //--Arrange
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = null,
+                ProductDescription = "Assorted size set of 4 bright yellow mini sunflowers",
+                ProductName = "Sunflowers",
+                HasChanges = true
+
+            };
+            // -- Act
+            var actual = productRepository.Save(updatedProduct);
+            // --Assert
+            Assert.AreEqual(actual, false);
         }
     }
 }

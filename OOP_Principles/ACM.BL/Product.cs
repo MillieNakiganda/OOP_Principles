@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product(int productId)
         {
@@ -24,7 +24,7 @@ namespace ACM.BL
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         
-        public bool validate()
+        public override bool validate()
         {
             //validates customer data
             var isValid = true;
