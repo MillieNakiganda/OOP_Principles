@@ -4,3 +4,6 @@ C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\obj\Debug\ACM
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\obj\Debug\ACM.BL.csproj.CoreCompileInputs.cache
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\obj\Debug\ACM.BL.dll
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\obj\Debug\ACM.BL.pdb
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\bin\Debug\ACM.Common.dll
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\bin\Debug\ACM.Common.pdb
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\ACM.BL\obj\Debug\ACM.BL.csproj.CopyComplete

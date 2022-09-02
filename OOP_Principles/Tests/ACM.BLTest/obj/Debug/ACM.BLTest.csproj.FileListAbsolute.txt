@@ -14,3 +14,5 @@ C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\obj
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CopyComplete
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.dll
 C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.pdb
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\bin\Debug\ACM.Common.dll
+C:\Users\Personal\Desktop\dev\OOP_Principles\OOP_Principles\Tests\ACM.BLTest\bin\Debug\ACM.Common.pdb
